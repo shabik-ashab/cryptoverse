@@ -22,7 +22,7 @@ function App() {
                   <Route exact path="/cryptocurrencies">
                     <Cryptocurrencies></Cryptocurrencies>
                   </Route>
-                  <Route exact path="/crypto/:coinid">
+                  <Route exact path="/crypto/:coinId">
                       <CryptoDetails></CryptoDetails>
                   </Route>
                   <Route exact path="/news">
